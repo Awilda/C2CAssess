@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: 'Assistant', sans-serif;
+}
+header {
+	background-color: #3b5998;
+	color: white;
+	height: 100px;
+	width: 100%;
+}
+form {
+	position: relative;
+	left: 600px;
+	top: -25px;
+	font-size: 13px;
+}
+#title {
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	position: relative;
+	top: 40px;
+	left: 250px;
+}
+#forgot {
+	position: relative;
+	font-size: 13px;
+	left: 780px;
+	top: -32px;
+}
