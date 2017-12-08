@@ -15,6 +15,7 @@ form {
 	left: 600px;
 	top: -25px;
 	font-size: 13px;
+	font-weight: bold;
 }
 #title {
 	font-weight: bold;
@@ -29,4 +30,15 @@ form {
 	font-size: 13px;
 	left: 780px;
 	top: -32px;
+}
+button {
+	background-color: #3b5998;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	border-top: 2px solid #000040;
+	border-left: 1px solid #000040;
+	border-right: 1px solid #000040;
+	border-bottom: 1px solid #000040;
+	border-radius: 2px;
 }
