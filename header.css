@@ -2,8 +2,11 @@ body {
 	margin: 0;
   padding: 0;
   background-size: cover;
-  width: 100%;
+  width: 100%;;
   font-family: 'Assistant', sans-serif;
+}
+#login {
+	margin-top: -23px;
 }
 header {
 	background-color: #3b5998;
@@ -13,8 +16,7 @@ header {
 }
 #signInForm {
 	position: relative;
-	left: 675px;
-	top: -25px;
+	padding-left: 675px;
 	font-size: 13px;
 	font-weight: bold;
 }
@@ -24,13 +26,13 @@ header {
 	color: white;
 	position: relative;
 	top: 40px;
-	left: 200px;
+	padding-left: 200px;
 }
 #forgot {
 	position: relative;
 	font-size: 13px;
-	left: 855px;
-	top: -32px;
+	padding-left: 855px;
+	padding-top: -8px;
 }
 button {
 	background-color: #3b5998;
