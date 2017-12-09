@@ -1,0 +1,28 @@
+footer {
+ 	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+footer #bottomContent td {
+	padding-right: 8px;
+	text-align: left;
+}
+a {
+	text-decoration: none;
+}
+footer #languages ul {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 0;
+	text-align: left;
+	border-bottom: solid 1px grey;
+}
+footer #languages ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
