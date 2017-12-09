@@ -2,6 +2,7 @@ body {
 	margin: 0;
   padding: 0;
   background-size: cover;
+  width: 100%;
   font-family: 'Assistant', sans-serif;
 }
 header {
@@ -10,9 +11,9 @@ header {
 	height: 100px;
 	width: 100%;
 }
-form {
+#signInForm {
 	position: relative;
-	left: 600px;
+	left: 675px;
 	top: -25px;
 	font-size: 13px;
 	font-weight: bold;
@@ -23,12 +24,12 @@ form {
 	color: white;
 	position: relative;
 	top: 40px;
-	left: 250px;
+	left: 200px;
 }
 #forgot {
 	position: relative;
 	font-size: 13px;
-	left: 780px;
+	left: 855px;
 	top: -32px;
 }
 button {

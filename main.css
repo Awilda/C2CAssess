@@ -1,0 +1,43 @@
+#main {
+	background-color: #edf0f5;
+}
+#about {
+	position: relative;
+	left: 200px;
+	width: 450px;
+}
+#newsfeed span {
+ margin-left:10px; 
+} 
+img {
+  vertical-align: middle; 
+  padding-right: 10px;
+}
+#signUpForm {
+	position: relative;
+	left: 350px;
+	top: -30px;
+}
+#signUpHeader {
+	position: relative;
+	top: 20px;
+	font-size: 30px;
+}
+p {
+	position: relative;
+	top: -5px;
+}
+.newMember {
+	margin-bottom: 10px;
+	height: 20px;
+}
+#terms, #businessPage {
+	font-size: 10px;
+	width: 350px;
+}
+#createAccount {
+	background-color: #69a74e;
+	border: 1px solid black;
+	width: 125px;
+	height: 30px;
+}

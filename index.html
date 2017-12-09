@@ -3,14 +3,14 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
 	<title>C2C Assessment</title>
-	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="header.css"><link rel="stylesheet" type="text/css" href="main.css"><link rel="stylesheet" type="text/css" href="footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<div id="title">facebook</div>
 		<div>
-			<form>
+			<form id="signInForm">
 				<table>
 					<tr>
 						<td>
@@ -30,7 +30,49 @@
 			<p id="forgot">Forgot account?</p>
 		</div>
 	</header>
-	<section></section>
+	<section id="main">
+		<table>
+			<tr>
+				<td id="about">
+					<h1>Connect with friends and the<br>world around you on Facebook.</h1>
+						<div id="newsFeed">
+							<img src="images/news-icon.png" width="65px" height="65px"><span><b>See photos and updates</b> from friends in News Feed</span>	
+						</div>
+						<div id="timeline">
+							<img src="images/computer-icon.png" width="65px" height="65px"><span><b>Share what's new</b> in your life on your Timeline</span>
+						</div>
+						<div id="search">
+							<img src="images/search-icon.png" width="65px" height="65px"><span><b>Find more</b> of what you're looking for with Face Search</span>
+						</div>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>
+								<form id="signUpForm">
+									<h1 id="signUpHeader">Sign Up</h1>
+									<p>It's free and always will be.</p>
+									<input class="newMember" type="text" name="firstname" placeholder="First Name" />
+									<input class="newMember" type="text" name="lastname" placeholder="Last Name" /><br>
+									<input class="newMember" type="text" name="numemail" placeholder="Mobile number or email" size="42" /><br>
+									<input class="newMember" type="text" name="numemail" placeholder="New password" size="42" />
+									<p>Birthday</p>
+									<input type="date" name="bday" min="2001-01-02" max="1900-01-02" /><br>	
+									<input class="gender" type="radio" />
+									<label for="female">Female</label>
+									<input type="radio" />
+									<label for="male">Male</label>
+									<p id="terms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<button id="createAccount">Create Account</button>
+									<p id="businessPage">Lorem ipsum dolor sit </p>
+								</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</section>
 	<footer></footer>
 </body>
 </html>
